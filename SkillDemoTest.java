@@ -5,7 +5,7 @@ import org.junit.*;
 public class SkillDemoTest {
     @Test public void testHighestInteger(){
         int[] list = new int[]{4, 3, 76, 65, 34};
-        assertEquals(65, SkillDemo.highestInteger(list));
+        assertEquals(76, SkillDemo.highestInteger(list));
 
     }
 }
